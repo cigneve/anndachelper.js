@@ -5,8 +5,8 @@ garanti vermiyorum
 ## kurulum
 
 - [tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=tr) kur
-- anndachelper.user.js ekle
-- yazilarim sayfasinda sirala sonra tusa bas (belli zaten basic motor beceri)
+- anndachelper.user.js indirip aç açılan sayfada ekleye bas
+- yazilarim sayfasina girince yeni gelen pencereden sirala sonra tusa bas (belli zaten basic motor beceri)
 
 tüm hakları Utkan subaşı nindir
 
