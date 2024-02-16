@@ -9,3 +9,9 @@ garanti vermiyorum
 - yazilarim sayfasinda sirala sonra tusa bas (belli zaten basic motor beceri)
 
 telif ahmet yasir polat & yusuf said aktan
+
+## video yardimci
+
+
+https://github.com/cigneve/anndachelper.js/assets/53265920/eb266b93-d39c-447b-8085-430e83fa6c93
+
