@@ -8,7 +8,8 @@ garanti vermiyorum
 - anndachelper.user.js ekle
 - yazilarim sayfasinda sirala sonra tusa bas (belli zaten basic motor beceri)
 
-telif ahmet yasir polat & yusuf said aktan
+tüm hakları Utkan subaşı nindir
+
 
 ## video yardimci
 
