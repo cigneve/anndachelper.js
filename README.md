@@ -1,6 +1,6 @@
 # Andac siralama yardimcisi
 
-hersey bozulursa sorumlu degilim.  
+garanti vermiyorum
 
 ## kurulum
 
