@@ -53,7 +53,7 @@ orders.forEach((litem) => {
 
 let orderButton = document.createElement("button");
 orderButton.innerText = "Sirala babam";
-orderButton.style.justifySelf = "center"
+orderButton.style.justifySelf = "center";
 
 container.appendChild(containerList);
 container.appendChild(orderButton);
@@ -78,7 +78,6 @@ document.addEventListener("dragstart", ({ target }) => {
   }
 });
 
-debugger;
 document.addEventListener("dragover", (event) => {
   event.preventDefault();
 });
@@ -101,7 +100,11 @@ document.addEventListener("drop", ({ target }) => {
   }
 });
 
-function handleOrder() {
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function handleOrder() {
   let orderDict = {};
 
   let list = Array.from(containerList.children);
@@ -117,16 +120,16 @@ function handleOrder() {
     ).map((yazi) => angular.element(yazi).scope().yazi);
 
     for (let i = 1; i < list.length; i++) {
-        let curyazi = curyazis[i];
-        let prevyazi = curyazis[i-1];
-        let curid = curyazi['YazanId'];
-        let previd = prevyazi['YazanId'];
+      let curyazi = curyazis[i];
+      let prevyazi = curyazis[i - 1];
+      let curid = curyazi["YazanId"];
+      let previd = prevyazi["YazanId"];
 
-        if (orderDict[curid].target<orderDict[previd].target){
-          moveUp(curyazi);
-          curyazis[i]=prevyazi;
-        }
-
+      if (orderDict[curid].target < orderDict[previd].target) {
+        moveUp(curyazi);
+        await sleep(2000);
+        curyazis[i] = prevyazi;
+      }
     }
   }
 }
